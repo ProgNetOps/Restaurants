@@ -32,3 +32,8 @@ C:\Users\suber\Desktop\BLAZOR\Restaurants\Restaurants.API\obj\Debug\net10.0\refi
 C:\Users\suber\Desktop\BLAZOR\Restaurants\Restaurants.API\obj\Debug\net10.0\Restaurants.API.pdb
 C:\Users\suber\Desktop\BLAZOR\Restaurants\Restaurants.API\obj\Debug\net10.0\Restaurants.API.genruntimeconfig.cache
 C:\Users\suber\Desktop\BLAZOR\Restaurants\Restaurants.API\obj\Debug\net10.0\ref\Restaurants.API.dll
+C:\Users\suber\Desktop\BLAZOR\Restaurants\Restaurants.API\bin\Debug\net10.0\Restaurants.Application.dll
+C:\Users\suber\Desktop\BLAZOR\Restaurants\Restaurants.API\bin\Debug\net10.0\Restaurants.Domain.dll
+C:\Users\suber\Desktop\BLAZOR\Restaurants\Restaurants.API\bin\Debug\net10.0\Restaurants.Application.pdb
+C:\Users\suber\Desktop\BLAZOR\Restaurants\Restaurants.API\bin\Debug\net10.0\Restaurants.Domain.pdb
+C:\Users\suber\Desktop\BLAZOR\Restaurants\Restaurants.API\obj\Debug\net10.0\Restaurants.API.sourcelink.json

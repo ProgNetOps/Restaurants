@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E9A9B2B1-CC89-451B-8CE3-A05EA8ECC3FC}|Restaurants.Domain\\Restaurants.Domain.csproj|c:\\users\\suber\\desktop\\blazor\\restaurants\\restaurants.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A9B2B1-CC89-451B-8CE3-A05EA8ECC3FC}|Restaurants.Domain\\Restaurants.Domain.csproj|solutionrelative:restaurants.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A9B2B1-CC89-451B-8CE3-A05EA8ECC3FC}|Restaurants.Domain\\Restaurants.Domain.csproj|c:\\users\\suber\\desktop\\blazor\\restaurants\\restaurants.domain\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A9B2B1-CC89-451B-8CE3-A05EA8ECC3FC}|Restaurants.Domain\\Restaurants.Domain.csproj|solutionrelative:restaurants.domain\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB02F007-0772-441A-8777-F0BE9340A351}|Restaurants.API\\Restaurants.API.csproj|c:\\users\\suber\\desktop\\blazor\\restaurants\\restaurants.api\\restaurants.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{FB02F007-0772-441A-8777-F0BE9340A351}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\restaurants.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB02F007-0772-441A-8777-F0BE9340A351}|Restaurants.API\\Restaurants.API.csproj|c:\\users\\suber\\desktop\\blazor\\restaurants\\restaurants.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB02F007-0772-441A-8777-F0BE9340A351}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB02F007-0772-441A-8777-F0BE9340A351}|Restaurants.API\\Restaurants.API.csproj|c:\\users\\suber\\desktop\\blazor\\restaurants\\restaurants.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -23,19 +35,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Restaurants.API.http",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.API\\Restaurants.API.http",
-              "RelativeDocumentMoniker": "Restaurants.API\\Restaurants.API.http",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.API\\Restaurants.API.http",
-              "RelativeToolTip": "Restaurants.API\\Restaurants.API.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-09-18T11:18:25.087Z",
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.Domain\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "Restaurants.Domain\\Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.Domain\\Entities\\Address.cs",
+              "RelativeToolTip": "Restaurants.Domain\\Entities\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T15:20:46.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.Domain\\Entities\\Restaurant.cs",
+              "RelativeDocumentMoniker": "Restaurants.Domain\\Entities\\Restaurant.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.Domain\\Entities\\Restaurant.cs",
+              "RelativeToolTip": "Restaurants.Domain\\Entities\\Restaurant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T15:05:48.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Restaurants.API.http",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.API\\Restaurants.API.http",
+              "RelativeDocumentMoniker": "Restaurants.API\\Restaurants.API.http",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.API\\Restaurants.API.http",
+              "RelativeToolTip": "Restaurants.API\\Restaurants.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-09-18T13:58:46.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Restaurants.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Restaurants.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T13:51:44.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Restaurants.API\\Properties\\launchSettings.json",
