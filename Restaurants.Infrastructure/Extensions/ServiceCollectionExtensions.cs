@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Restaurants.Infrastructure.Persistence;
+using Restaurants.Infrastructure.Seeders;
 
 namespace Restaurants.Infrastructure.Extensions;
 
@@ -11,10 +12,15 @@ public static class ServiceCollectionExtensions
     public static void AddInfrastructure(this IServiceCollection services,
         IConfiguration configuration)
     {
-        //Dynamically retrieving the connection string defined in appsettings.json file
+        //Dynamically retrieve the connection string defined in appsettings.json file
         var connectionString = configuration.GetConnectionString("RestaurantsDbConnectionString");
+
         services.AddDbContext<RestaurantsDbContext>(options =>
-        options.UseSqlServer(connectionString));
+        {
+            options.UseSqlServer(connectionString);
+        });
+
+        services.AddScoped<IRestaurantSeeder, RestaurantSeeder>();
 
     }
 }

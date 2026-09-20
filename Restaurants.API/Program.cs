@@ -1,6 +1,5 @@
-using Microsoft.EntityFrameworkCore;
 using Restaurants.Infrastructure.Extensions;
-using Restaurants.Infrastructure.Persistence;
+using Restaurants.Infrastructure.Seeders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +17,12 @@ builder.Services.AddOpenApi();
 builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
+
+
+//Get the Seeder service and call the seed method to populate the db tables if empty
+var seeder = app.Services.CreateScope().ServiceProvider.GetRequiredService<IRestaurantSeeder>();
+await seeder.Seed();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

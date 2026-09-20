@@ -3,15 +3,15 @@ using Restaurants.Infrastructure.Persistence;
 
 namespace Restaurants.Infrastructure.Seeders;
 
-internal class RestaurantSeeders(RestaurantsDbContext dbContext)
+internal class RestaurantSeeder(RestaurantsDbContext dbContext) : IRestaurantSeeder
 {
     public async Task Seed()
     {
-        if(await dbContext.Database.CanConnectAsync())
+        if (await dbContext.Database.CanConnectAsync())
         {
-            if(dbContext.Restaurants.Any() is false)
+            if (dbContext.Restaurants.Any() is false)
             {
-                var restaurants = GetRestaurants();   
+                var restaurants = GetRestaurants();
                 dbContext.Restaurants.AddRange(restaurants);
                 await dbContext.SaveChangesAsync();
             }
@@ -41,12 +41,6 @@ internal class RestaurantSeeders(RestaurantsDbContext dbContext)
                         Name="Chicken Nuggets",
                         Description="Nashville Hot Chicken Nuggets (5 pcs.)",
                         Price=5.3M
-                    },
-                    new()
-                    {
-                        Name="Nashville Hot Chicken",
-                        Description="Nashville Hot Chicken (10 pcs.)",
-                        Price=10.30M
                     }
                     ],
                 Address = new()
