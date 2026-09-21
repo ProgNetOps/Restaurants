@@ -1,4 +1,5 @@
 using Restaurants.Infrastructure.Extensions;
+using Restaurants.Application.Extensions;
 using Restaurants.Infrastructure.Seeders;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ builder.Services.AddOpenApi();
 //W ecan just pass a Configuration instance since we may use it to retrieve other configuration data besides connection string 
 
 builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddApplication();
 
 var app = builder.Build();
 
