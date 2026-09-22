@@ -13,7 +13,7 @@ builder.Services.AddOpenApi();
 
 //We can't directly access the DbContext because it has internal scope,
 //but we can access this public method AddInfrastructure
-//W ecan just pass a Configuration instance since we may use it to retrieve other configuration data besides connection string 
+//We can just pass a Configuration instance since we may use it to retrieve other configuration data besides connection string 
 
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
