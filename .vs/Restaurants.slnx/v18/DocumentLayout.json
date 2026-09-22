@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9110E7A8-48C7-8D9C-4A03-0392653D6F8D}|Restaurant.Application\\Restaurants.Application.csproj|c:\\users\\suber\\desktop\\blazor\\restaurants\\restaurant.application\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9110E7A8-48C7-8D9C-4A03-0392653D6F8D}|Restaurant.Application\\Restaurants.Application.csproj|solutionrelative:restaurant.application\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9110E7A8-48C7-8D9C-4A03-0392653D6F8D}|Restaurant.Application\\Restaurants.Application.csproj|c:\\users\\suber\\desktop\\blazor\\restaurants\\restaurant.application\\restaurants\\restaurantsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9110E7A8-48C7-8D9C-4A03-0392653D6F8D}|Restaurant.Application\\Restaurants.Application.csproj|solutionrelative:restaurant.application\\restaurants\\restaurantsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9110E7A8-48C7-8D9C-4A03-0392653D6F8D}|Restaurant.Application\\Restaurants.Application.csproj|c:\\users\\suber\\desktop\\blazor\\restaurants\\restaurant.application\\restaurants\\dtos\\restaurantsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9110E7A8-48C7-8D9C-4A03-0392653D6F8D}|Restaurant.Application\\Restaurants.Application.csproj|solutionrelative:restaurant.application\\restaurants\\dtos\\restaurantsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3F3C009-088E-4BA1-18AC-FD16FAA7DCC4}|Restaurants.API\\Restaurants.API.csproj|c:\\users\\suber\\desktop\\blazor\\restaurants\\restaurants.api\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3F3C009-088E-4BA1-18AC-FD16FAA7DCC4}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9110E7A8-48C7-8D9C-4A03-0392653D6F8D}|Restaurant.Application\\Restaurants.Application.csproj|c:\\users\\suber\\desktop\\blazor\\restaurants\\restaurant.application\\dishes\\dtos\\dishdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9110E7A8-48C7-8D9C-4A03-0392653D6F8D}|Restaurant.Application\\Restaurants.Application.csproj|solutionrelative:restaurant.application\\dishes\\dtos\\dishdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9110E7A8-48C7-8D9C-4A03-0392653D6F8D}|Restaurant.Application\\Restaurants.Application.csproj|c:\\users\\suber\\desktop\\blazor\\restaurants\\restaurant.application\\restaurants\\irestaurantsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9110E7A8-48C7-8D9C-4A03-0392653D6F8D}|Restaurant.Application\\Restaurants.Application.csproj|solutionrelative:restaurant.application\\restaurants\\irestaurantsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RestaurantsController.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.API\\Controllers\\RestaurantsController.cs",
-              "RelativeDocumentMoniker": "Restaurants.API\\Controllers\\RestaurantsController.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.API\\Controllers\\RestaurantsController.cs",
-              "RelativeToolTip": "Restaurants.API\\Controllers\\RestaurantsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurant.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "Restaurant.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurant.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "Restaurant.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T15:44:54.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRestaurantsService.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurant.Application\\Restaurants\\IRestaurantsService.cs",
-              "RelativeDocumentMoniker": "Restaurant.Application\\Restaurants\\IRestaurantsService.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurant.Application\\Restaurants\\IRestaurantsService.cs",
-              "RelativeToolTip": "Restaurant.Application\\Restaurants\\IRestaurantsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T15:41:13.349Z",
+              "WhenOpened": "2026-09-22T22:12:34.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DishDto.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurant.Application\\Dishes\\Dtos\\DishDto.cs",
-              "RelativeDocumentMoniker": "Restaurant.Application\\Dishes\\Dtos\\DishDto.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurant.Application\\Dishes\\Dtos\\DishDto.cs",
-              "RelativeToolTip": "Restaurant.Application\\Dishes\\Dtos\\DishDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "RestaurantsService.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurant.Application\\Restaurants\\RestaurantsService.cs",
+              "RelativeDocumentMoniker": "Restaurant.Application\\Restaurants\\RestaurantsService.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurant.Application\\Restaurants\\RestaurantsService.cs",
+              "RelativeToolTip": "Restaurant.Application\\Restaurants\\RestaurantsService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T15:39:48.504Z",
+              "WhenOpened": "2026-09-22T22:08:07.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RestaurantsProfile.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurant.Application\\Restaurants\\Dtos\\RestaurantsProfile.cs",
+              "RelativeDocumentMoniker": "Restaurant.Application\\Restaurants\\Dtos\\RestaurantsProfile.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurant.Application\\Restaurants\\Dtos\\RestaurantsProfile.cs",
+              "RelativeToolTip": "Restaurant.Application\\Restaurants\\Dtos\\RestaurantsProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T21:51:21.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestaurantsController.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.API\\Controllers\\RestaurantsController.cs",
+              "RelativeDocumentMoniker": "Restaurants.API\\Controllers\\RestaurantsController.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\Restaurants\\Restaurants.API\\Controllers\\RestaurantsController.cs",
+              "RelativeToolTip": "Restaurants.API\\Controllers\\RestaurantsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T15:44:54.412Z",
               "EditorCaption": ""
             }
           ]
