@@ -10,6 +10,14 @@ internal class RestaurantsRepository(RestaurantsDbContext dbContext) : IRestaura
 {
     private readonly RestaurantsDbContext _dbContext = dbContext;
 
+    public async Task<int> Create(Restaurant entity)
+    {
+        _dbContext.Restaurants.Add(entity);
+        await _dbContext.SaveChangesAsync();
+
+        return entity.Id;
+    }
+
     public async Task<IEnumerable<Restaurant>> GetAllAsync()
     {
         var restaurants = await _dbContext.Restaurants.ToListAsync();

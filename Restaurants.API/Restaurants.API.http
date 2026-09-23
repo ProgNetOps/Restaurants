@@ -1,12 +1,27 @@
 @Restaurants.API_HostAddress = https://localhost:7243
 
 
+@id=2
+GET {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
+
+###
 
 GET {{Restaurants.API_HostAddress}}/api/restaurants
 
 ###
 
-@id=1
-GET {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
+POST {{Restaurants.API_HostAddress}}/api/restaurants
+Content-Type: application/xml
+{
+  "Name":"TFC",
+  "Description":"Tasty meals in the Nigeria",
+  "Category":"Fine Dining",
+  "HasDelivery":true,
+  "ContactEmail":"info@tfc.com",
+  "ContactNumber":"323-446-6549",
+  "City":"Metropolis",
+  "Street":"23 Awe Street",
+  "PostalCode":"54321"
+}
 
 ###
